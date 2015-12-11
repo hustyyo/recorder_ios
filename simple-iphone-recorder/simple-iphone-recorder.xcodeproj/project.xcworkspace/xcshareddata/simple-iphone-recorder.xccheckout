@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AB759DAF-2D43-4B2E-8375-65EB6708F1EE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>simple-iphone-recorder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>65741FB9-1B00-4438-B954-31E2D3F0AD47</key>
+		<string>ssh://github.com/CacheFactory/iphone_recorder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>simple-iphone-recorder/simple-iphone-recorder.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>65741FB9-1B00-4438-B954-31E2D3F0AD47</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/CacheFactory/iphone_recorder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>65741FB9-1B00-4438-B954-31E2D3F0AD47</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>65741FB9-1B00-4438-B954-31E2D3F0AD47</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iphone_recorder</string>
+		</dict>
+	</array>
+</dict>
+</plist>
