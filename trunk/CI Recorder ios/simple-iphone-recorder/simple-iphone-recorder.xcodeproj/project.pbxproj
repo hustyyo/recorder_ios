@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77038B5E191C5709000DDFC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77038B5D191C5709000DDFC8 /* Foundation.framework */; };
+		77038B60191C5709000DDFC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77038B5F191C5709000DDFC8 /* CoreGraphics.framework */; };
+		77038B62191C5709000DDFC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77038B61191C5709000DDFC8 /* UIKit.framework */; };
+		77038B68191C5709000DDFC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77038B66191C5709000DDFC8 /* InfoPlist.strings */; };
+		77038B6A191C5709000DDFC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77038B69191C5709000DDFC8 /* main.m */; };
+		77038B6E191C5709000DDFC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77038B6D191C5709000DDFC8 /* AppDelegate.m */; };
+		77038B71191C5709000DDFC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77038B6F191C5709000DDFC8 /* Main.storyboard */; };
+		77038B74191C5709000DDFC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77038B73191C5709000DDFC8 /* ViewController.m */; };
+		77038B76191C5709000DDFC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77038B75191C5709000DDFC8 /* Images.xcassets */; };
+		77038B7D191C5709000DDFC8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77038B7C191C5709000DDFC8 /* XCTest.framework */; };
+		77038B7E191C5709000DDFC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77038B5D191C5709000DDFC8 /* Foundation.framework */; };
+		77038B7F191C5709000DDFC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77038B61191C5709000DDFC8 /* UIKit.framework */; };
+		77038B87191C5709000DDFC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77038B85191C5709000DDFC8 /* InfoPlist.strings */; };
+		77038B89191C5709000DDFC8 /* simple_iphone_recorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77038B88191C5709000DDFC8 /* simple_iphone_recorderTests.m */; };
+		77C5520519203CBD006DB7FA /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C551F319203CBD006DB7FA /* AFHTTPRequestOperation.m */; };
+		77C5520619203CBD006DB7FA /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C551F519203CBD006DB7FA /* AFHTTPRequestOperationManager.m */; };
+		77C5520719203CBD006DB7FA /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C551F719203CBD006DB7FA /* AFHTTPSessionManager.m */; };
+		77C5520819203CBD006DB7FA /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C551FA19203CBD006DB7FA /* AFNetworkReachabilityManager.m */; };
+		77C5520919203CBD006DB7FA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C551FC19203CBD006DB7FA /* AFSecurityPolicy.m */; };
+		77C5520A19203CBD006DB7FA /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C551FE19203CBD006DB7FA /* AFURLConnectionOperation.m */; };
+		77C5520B19203CBD006DB7FA /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C5520019203CBD006DB7FA /* AFURLRequestSerialization.m */; };
+		77C5520C19203CBD006DB7FA /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C5520219203CBD006DB7FA /* AFURLResponseSerialization.m */; };
+		77C5520D19203CBD006DB7FA /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C5520419203CBD006DB7FA /* AFURLSessionManager.m */; };
+		F4D937E11BDDF81D00BA65FF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D937E01BDDF81D00BA65FF /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77038B80191C5709000DDFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77038B52191C5709000DDFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77038B59191C5709000DDFC8;
+			remoteInfo = "simple-iphone-recorder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77038B5A191C5709000DDFC8 /* CI Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CI Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77038B5D191C5709000DDFC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77038B5F191C5709000DDFC8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77038B61191C5709000DDFC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77038B65191C5709000DDFC8 /* simple-iphone-recorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "simple-iphone-recorder-Info.plist"; sourceTree = "<group>"; };
+		77038B67191C5709000DDFC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77038B69191C5709000DDFC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77038B6B191C5709000DDFC8 /* simple-iphone-recorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "simple-iphone-recorder-Prefix.pch"; sourceTree = "<group>"; };
+		77038B6C191C5709000DDFC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77038B6D191C5709000DDFC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77038B70191C5709000DDFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77038B72191C5709000DDFC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77038B73191C5709000DDFC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77038B75191C5709000DDFC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77038B7B191C5709000DDFC8 /* simple-iphone-recorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-iphone-recorderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77038B7C191C5709000DDFC8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		77038B84191C5709000DDFC8 /* simple-iphone-recorderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "simple-iphone-recorderTests-Info.plist"; sourceTree = "<group>"; };
+		77038B86191C5709000DDFC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77038B88191C5709000DDFC8 /* simple_iphone_recorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simple_iphone_recorderTests.m; sourceTree = "<group>"; };
+		77C551F219203CBD006DB7FA /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		77C551F319203CBD006DB7FA /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		77C551F419203CBD006DB7FA /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		77C551F519203CBD006DB7FA /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		77C551F619203CBD006DB7FA /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		77C551F719203CBD006DB7FA /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		77C551F819203CBD006DB7FA /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		77C551F919203CBD006DB7FA /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		77C551FA19203CBD006DB7FA /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		77C551FB19203CBD006DB7FA /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		77C551FC19203CBD006DB7FA /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		77C551FD19203CBD006DB7FA /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		77C551FE19203CBD006DB7FA /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		77C551FF19203CBD006DB7FA /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		77C5520019203CBD006DB7FA /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		77C5520119203CBD006DB7FA /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		77C5520219203CBD006DB7FA /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		77C5520319203CBD006DB7FA /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		77C5520419203CBD006DB7FA /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		F4D937DF1BDDF81D00BA65FF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F4D937E01BDDF81D00BA65FF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77038B57191C5709000DDFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77038B60191C5709000DDFC8 /* CoreGraphics.framework in Frameworks */,
+				77038B62191C5709000DDFC8 /* UIKit.framework in Frameworks */,
+				77038B5E191C5709000DDFC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77038B78191C5709000DDFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77038B7D191C5709000DDFC8 /* XCTest.framework in Frameworks */,
+				77038B7F191C5709000DDFC8 /* UIKit.framework in Frameworks */,
+				77038B7E191C5709000DDFC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77038B51191C5709000DDFC8 = {
+			isa = PBXGroup;
+			children = (
+				77038B63191C5709000DDFC8 /* simple-iphone-recorder */,
+				77038B82191C5709000DDFC8 /* simple-iphone-recorderTests */,
+				77038B5C191C5709000DDFC8 /* Frameworks */,
+				77038B5B191C5709000DDFC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77038B5B191C5709000DDFC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77038B5A191C5709000DDFC8 /* CI Recorder.app */,
+				77038B7B191C5709000DDFC8 /* simple-iphone-recorderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77038B5C191C5709000DDFC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77038B5D191C5709000DDFC8 /* Foundation.framework */,
+				77038B5F191C5709000DDFC8 /* CoreGraphics.framework */,
+				77038B61191C5709000DDFC8 /* UIKit.framework */,
+				77038B7C191C5709000DDFC8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77038B63191C5709000DDFC8 /* simple-iphone-recorder */ = {
+			isa = PBXGroup;
+			children = (
+				F4D937DF1BDDF81D00BA65FF /* Reachability.h */,
+				F4D937E01BDDF81D00BA65FF /* Reachability.m */,
+				77C551F119203CBD006DB7FA /* AFNetworking */,
+				77038B6C191C5709000DDFC8 /* AppDelegate.h */,
+				77038B6D191C5709000DDFC8 /* AppDelegate.m */,
+				77038B6F191C5709000DDFC8 /* Main.storyboard */,
+				77038B72191C5709000DDFC8 /* ViewController.h */,
+				77038B73191C5709000DDFC8 /* ViewController.m */,
+				77038B75191C5709000DDFC8 /* Images.xcassets */,
+				77038B64191C5709000DDFC8 /* Supporting Files */,
+			);
+			path = "simple-iphone-recorder";
+			sourceTree = "<group>";
+		};
+		77038B64191C5709000DDFC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77038B65191C5709000DDFC8 /* simple-iphone-recorder-Info.plist */,
+				77038B66191C5709000DDFC8 /* InfoPlist.strings */,
+				77038B69191C5709000DDFC8 /* main.m */,
+				77038B6B191C5709000DDFC8 /* simple-iphone-recorder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77038B82191C5709000DDFC8 /* simple-iphone-recorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				77038B88191C5709000DDFC8 /* simple_iphone_recorderTests.m */,
+				77038B83191C5709000DDFC8 /* Supporting Files */,
+			);
+			path = "simple-iphone-recorderTests";
+			sourceTree = "<group>";
+		};
+		77038B83191C5709000DDFC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77038B84191C5709000DDFC8 /* simple-iphone-recorderTests-Info.plist */,
+				77038B85191C5709000DDFC8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77C551F119203CBD006DB7FA /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				77C551F219203CBD006DB7FA /* AFHTTPRequestOperation.h */,
+				77C551F319203CBD006DB7FA /* AFHTTPRequestOperation.m */,
+				77C551F419203CBD006DB7FA /* AFHTTPRequestOperationManager.h */,
+				77C551F519203CBD006DB7FA /* AFHTTPRequestOperationManager.m */,
+				77C551F619203CBD006DB7FA /* AFHTTPSessionManager.h */,
+				77C551F719203CBD006DB7FA /* AFHTTPSessionManager.m */,
+				77C551F819203CBD006DB7FA /* AFNetworking.h */,
+				77C551F919203CBD006DB7FA /* AFNetworkReachabilityManager.h */,
+				77C551FA19203CBD006DB7FA /* AFNetworkReachabilityManager.m */,
+				77C551FB19203CBD006DB7FA /* AFSecurityPolicy.h */,
+				77C551FC19203CBD006DB7FA /* AFSecurityPolicy.m */,
+				77C551FD19203CBD006DB7FA /* AFURLConnectionOperation.h */,
+				77C551FE19203CBD006DB7FA /* AFURLConnectionOperation.m */,
+				77C551FF19203CBD006DB7FA /* AFURLRequestSerialization.h */,
+				77C5520019203CBD006DB7FA /* AFURLRequestSerialization.m */,
+				77C5520119203CBD006DB7FA /* AFURLResponseSerialization.h */,
+				77C5520219203CBD006DB7FA /* AFURLResponseSerialization.m */,
+				77C5520319203CBD006DB7FA /* AFURLSessionManager.h */,
+				77C5520419203CBD006DB7FA /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77038B59191C5709000DDFC8 /* simple-iphone-recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77038B8C191C5709000DDFC8 /* Build configuration list for PBXNativeTarget "simple-iphone-recorder" */;
+			buildPhases = (
+				77038B56191C5709000DDFC8 /* Sources */,
+				77038B57191C5709000DDFC8 /* Frameworks */,
+				77038B58191C5709000DDFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "simple-iphone-recorder";
+			productName = "simple-iphone-recorder";
+			productReference = 77038B5A191C5709000DDFC8 /* CI Recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77038B7A191C5709000DDFC8 /* simple-iphone-recorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77038B8F191C5709000DDFC8 /* Build configuration list for PBXNativeTarget "simple-iphone-recorderTests" */;
+			buildPhases = (
+				77038B77191C5709000DDFC8 /* Sources */,
+				77038B78191C5709000DDFC8 /* Frameworks */,
+				77038B79191C5709000DDFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77038B81191C5709000DDFC8 /* PBXTargetDependency */,
+			);
+			name = "simple-iphone-recorderTests";
+			productName = "simple-iphone-recorderTests";
+			productReference = 77038B7B191C5709000DDFC8 /* simple-iphone-recorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77038B52191C5709000DDFC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Edward anderson";
+				TargetAttributes = {
+					77038B59191C5709000DDFC8 = {
+						DevelopmentTeam = JQ6QP8KKGC;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					77038B7A191C5709000DDFC8 = {
+						TestTargetID = 77038B59191C5709000DDFC8;
+					};
+				};
+			};
+			buildConfigurationList = 77038B55191C5709000DDFC8 /* Build configuration list for PBXProject "simple-iphone-recorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77038B51191C5709000DDFC8;
+			productRefGroup = 77038B5B191C5709000DDFC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77038B59191C5709000DDFC8 /* simple-iphone-recorder */,
+				77038B7A191C5709000DDFC8 /* simple-iphone-recorderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77038B58191C5709000DDFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77038B76191C5709000DDFC8 /* Images.xcassets in Resources */,
+				77038B68191C5709000DDFC8 /* InfoPlist.strings in Resources */,
+				77038B71191C5709000DDFC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77038B79191C5709000DDFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77038B87191C5709000DDFC8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77038B56191C5709000DDFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D937E11BDDF81D00BA65FF /* Reachability.m in Sources */,
+				77C5520519203CBD006DB7FA /* AFHTTPRequestOperation.m in Sources */,
+				77038B74191C5709000DDFC8 /* ViewController.m in Sources */,
+				77C5520619203CBD006DB7FA /* AFHTTPRequestOperationManager.m in Sources */,
+				77C5520819203CBD006DB7FA /* AFNetworkReachabilityManager.m in Sources */,
+				77C5520C19203CBD006DB7FA /* AFURLResponseSerialization.m in Sources */,
+				77C5520A19203CBD006DB7FA /* AFURLConnectionOperation.m in Sources */,
+				77C5520919203CBD006DB7FA /* AFSecurityPolicy.m in Sources */,
+				77C5520719203CBD006DB7FA /* AFHTTPSessionManager.m in Sources */,
+				77C5520B19203CBD006DB7FA /* AFURLRequestSerialization.m in Sources */,
+				77C5520D19203CBD006DB7FA /* AFURLSessionManager.m in Sources */,
+				77038B6E191C5709000DDFC8 /* AppDelegate.m in Sources */,
+				77038B6A191C5709000DDFC8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77038B77191C5709000DDFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77038B89191C5709000DDFC8 /* simple_iphone_recorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77038B81191C5709000DDFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77038B59191C5709000DDFC8 /* simple-iphone-recorder */;
+			targetProxy = 77038B80191C5709000DDFC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77038B66191C5709000DDFC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77038B67191C5709000DDFC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77038B6F191C5709000DDFC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77038B70191C5709000DDFC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77038B85191C5709000DDFC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77038B86191C5709000DDFC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77038B8A191C5709000DDFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: hustyyo@gmail.com (4WK5G4ENC7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77038B8B191C5709000DDFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: hustyyo@gmail.com (4WK5G4ENC7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: COLLECTIVE INTELLIGENCE GROUP PTY LTD (JQ6QP8KKGC)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77038B8D191C5709000DDFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simple-iphone-recorder/simple-iphone-recorder-Prefix.pch";
+				INFOPLIST_FILE = "simple-iphone-recorder/simple-iphone-recorder-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.collectiveinitelligence.pandora.voicerecorder;
+				PRODUCT_NAME = "CI Recorder";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		77038B8E191C5709000DDFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simple-iphone-recorder/simple-iphone-recorder-Prefix.pch";
+				INFOPLIST_FILE = "simple-iphone-recorder/simple-iphone-recorder-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.collectiveinitelligence.pandora.voicerecorder;
+				PRODUCT_NAME = "CI Recorder";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		77038B90191C5709000DDFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/simple-iphone-recorder.app/simple-iphone-recorder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simple-iphone-recorder/simple-iphone-recorder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "simple-iphone-recorderTests/simple-iphone-recorderTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "taskflow.io.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		77038B91191C5709000DDFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/simple-iphone-recorder.app/simple-iphone-recorder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simple-iphone-recorder/simple-iphone-recorder-Prefix.pch";
+				INFOPLIST_FILE = "simple-iphone-recorderTests/simple-iphone-recorderTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "taskflow.io.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77038B55191C5709000DDFC8 /* Build configuration list for PBXProject "simple-iphone-recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77038B8A191C5709000DDFC8 /* Debug */,
+				77038B8B191C5709000DDFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77038B8C191C5709000DDFC8 /* Build configuration list for PBXNativeTarget "simple-iphone-recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77038B8D191C5709000DDFC8 /* Debug */,
+				77038B8E191C5709000DDFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77038B8F191C5709000DDFC8 /* Build configuration list for PBXNativeTarget "simple-iphone-recorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77038B90191C5709000DDFC8 /* Debug */,
+				77038B91191C5709000DDFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77038B52191C5709000DDFC8 /* Project object */;
+}
