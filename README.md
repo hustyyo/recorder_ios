@@ -1,4 +1,4 @@
 iphone_recorder
 ===============
 
-A simple iPhone prototype app to record audio
+A simple iOS  app to record audio, support background uploading with http.
